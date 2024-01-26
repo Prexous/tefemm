@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TEFEMP1.css">
+</head>
+<body>
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+    <nav class="nav">
+        <img src="gold_s_gym_2008-logo-5B7A8ECB44-seeklogo 1.png" alt="logo" class="a">
+        <span class="burger-icon" onclick="toggleMenu()">&#9776;</span>
+        <ul class="bar" id="nav-links">
+            <li class="t"><a href="index.html" >Home</a></li>
+            <li class="t"><a href="about.html">About</a></li>
+            <li class="t"><a>Workout Programs</a></li>
+            <li class="t"><a href="recipe.html">Recipes</a></li>
+            <li class="t"><a href="store.html">Store</a></li>
+            <li class="t"><a href="home.html">Login</a></li>
+            <li class="t"><a href="singup.html">Signup</a></li>
+        </ul> 
+    </nav>
+    
+    <div class="container">
+        <div class="login">
+            <h1>Track Your Progress & More!</h1>
+            <h4>Start Your Fitness Journey</h4>
+            <form>
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Enter your name" required><br>
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="xyz@gmail.com" required><br>
+                <label for="password"></label>
+                <input type="password" id="password" placeholder="Enter your password" required><br>
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="xyz@gmail.com" required><br>
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="xyz@gmail.com" required><br>
+
+                <div class="box">
+                    <label class="check">
+                        <input type="checkbox">
+                        <span class="custom"></span>
+                        <span class="boxx">Send me an email notification for new program launches, websites or store update(optional)</span>
+                    </label>
+                </div>
+
+                <button type="submit"> Create Account</button>
+            </form>
+        </div>
+
+        <div class="image">
+            <!-- <img src="./assets/Mask group (2).png" alt="girl"> -->
+        </div>
+    </div>
+
+
+</body>
+</html>

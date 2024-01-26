@@ -1,0 +1,236 @@
+body{
+    background-color:black ;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    background-image: url('image\ 18.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.t {
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.bar {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    display: none;
+    float: right;
+}
+.tee{
+    margin-top: 100px;
+}
+h3 {
+    color: white;
+    font-size: 40px;
+}
+h5{
+    color: white;
+    font-size: 30px;
+    display: inline;
+}
+
+h6  , h4{
+    color: white;
+    font-size: 16px;
+    display: block;
+}
+
+.tees {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.mat {
+    width: 30%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    box-sizing: border-box; /* Prevent padding from increasing the width */
+}
+.mate {
+    width: 30%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    box-sizing: border-box; /* Prevent padding from increasing the width */
+    margin-top: 35px;
+}
+
+.star {
+    width: 5%;
+    height: 30px;
+    max-width: 400px;
+    overflow: hidden;
+    margin-top: 100px;
+    
+}
+
+.tote {
+    width: 60%;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.gt{
+    width: 50%;
+    max-width: 400px; 
+    overflow: hidden;
+    height:auto;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+button{
+    width: 60%;
+    height: 40px;
+    /* margin: 10px; */
+    font-size: 10px;
+    border-radius: 10px;
+    border:2px, #ffdd00;
+    border-color: #ffdd00;
+    background-color: black;
+    color: white;
+    padding-bottom: 8px;
+}
+.cona{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding-top: 500px;
+}
+input {
+    width: 1000px;
+    max-width: 400px; 
+    margin: 10px;
+    padding: 18px;
+    font-size: 12px;
+    border-radius: 50px;
+    box-sizing: border-box; 
+    border-color: #ffdd00;
+    color: white;
+    background-color: black;
+}
+
+.fill {
+    width: 100%;
+    max-width: 400px; 
+    box-sizing: border-box;
+}
+
+.image {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    overflow: hidden;
+    border-radius: 30px;
+    height: 10px;
+    background-image: url('Mask\ group.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer{
+    padding-left: 50%;
+    padding-right: 40%;
+    padding-top: 10px;
+}
+.mask{
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: row;
+        /* text-align: center; */
+    }
+    .icon {
+        display: block;
+        float: right;
+    }
+
+    .bar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        position: flex;
+        background-color: #ffdd00;
+        top: 60px;
+        left: 0;
+    }
+
+    .bar.show {
+        display: flex;
+    }
+
+    .bar li {
+        margin: 10px 0;
+    }
+
+    .footer{
+        margin-right: 50px;
+        margin-left: 0px;
+        padding-left: 120px;
+        padding-right: 50px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="text"]
+    textarea {
+        width:100% ;
+        max-width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: 1px solid #ffdd00;
+        box-sizing: border-box;
+        color: white;
+    }
+    .mask{
+        width: 100%;
+        height: 200px;
+    }
+    .cona{
+        padding-top: 600px;
+    }
+
+}

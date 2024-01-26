@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 100vh; /* Ensures full viewport height */
+    margin: 0;
+}
+
+.container {
+    width: 100%; /* Adjust as needed */
+     /* Max width for larger screens */
+    padding: 20px;
+}
+input {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 10px;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-sizing: border-box; /* Prevent padding from increasing the width */
+}
+.long input[type="text"] {
+    width: 90%
+}
+.long{
+    justify-content: space-around;
+}
+
+.can {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.form {
+    flex: 70%;
+}
+
+.summary {
+    flex: 50%;
+    background-color: rgb(207, 206, 206);
+}
+.tees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.mat {
+    width: 60%;
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+    padding-top: 40px;
+}
+
+
+.tote {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.gt {
+    width: 30%;
+    max-width: 400px;
+    overflow: hidden;
+    text-align: left;
+    padding-top: 40px;
+
+}
+
+
+.logo{
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+button {
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    float: right;
+    background-color:#ffdd00 ;
+}
+.rat{
+    margin-bottom: 100px;
+}
+/* Other styles for form fields, buttons etc. */

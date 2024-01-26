@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+}
+
+.form {
+    flex: 70%;
+    background-color: white;
+}
+
+.summary {
+    flex: 50%;
+    background-color: rgb(207, 206, 206);
+}
+.tees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.mat {
+    width: 100%;
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+    padding-top: 80px;
+}
+
+
+.tote {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.gt {
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    text-align: left;
+    padding-top: 100px;
+
+}
+
+input[type="text"],
+input[type="checkbox"],
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.short input[type="text"] {
+    width: calc(50% - 5px);
+}
+
+.long input[type="text"] {
+    width: 49%
+}
+/* input {
+    margin: 10px;
+    padding: 20px;
+    font-size: 12px;
+    border-radius: 50px;
+    box-sizing: border-box; 
+}  */
+
+
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 20px;
+    padding-bottom: 30px;
+}
+
+.checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+}
+
+.boxx {
+    margin-left: 10px;
+}
+.short{
+    width: 33%;
+    display: inline;
+    justify-content: space-between;
+}
+.long{
+    width: 200%
+}
+.note{
+    color: brown;
+}
+button {
+    
+    height: 30px;
+    font-size: 10px;
+    border-radius: 10px;
+    border: 2px solid black; /* Corrected border syntax */
+    background-color: #ffdd00;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+
+}
+.pee{
+    float: right;
+}
+.pee a{
+    text-decoration: none;
+}
+.logo{
+    align-items: center;
+    margin-left: 350px;
+}
+.wee{
+    display: inline-flex;
+    justify-content: space-between;
+}
+/* Other styles for form fields, buttons etc. */

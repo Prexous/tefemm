@@ -1,0 +1,253 @@
+body{
+    background-color: black;
+}
+
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.t {
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.bar {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    display: none;
+    float: right;
+}
+.prep{
+    width: 100%;
+    /* overflow: hidden; */
+    background-image: url(snack.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 400px;
+    position: relative;
+}
+.se{
+    position: absolute;
+}
+.con {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    position: absolute;
+    top: 300px;
+}
+
+.f1 , .f2 ,.f3 {
+    /* max-width: 400px; Adjust the max-width as needed */
+    box-sizing: border-box; 
+    display: inline-block;
+    margin-left: 20px;
+    height: 80px;
+    align-items: left;
+
+}
+
+.f2 , .f3{
+    padding-right: 600px;
+}
+.f2{
+    margin-right: 0;
+    padding-right: 0;
+
+}
+
+.des {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    color: white;
+    padding-top: 50px;
+}
+
+.des1 , .des2 {
+    /* max-width: 400px; Adjust the max-width as needed */
+    box-sizing: border-box; 
+    display: inline-block;
+    margin-left: 20px;
+    height: 200px;
+    align-items: left;
+
+}
+.des2{
+    padding-top: 30px;
+}
+h3 , h6{
+    color: white;
+}
+.step{
+    text-align: left 80%;
+    padding-top: 200px;
+    color: white;
+    width: 100%;
+}
+.cona{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+input {
+    width: 1000px;
+    max-width: 400px; 
+    margin: 10px;
+    padding: 18px;
+    font-size: 12px;
+    border-radius: 50px;
+    box-sizing: border-box; 
+    border-color: #ffdd00;
+    color: white;
+    background-color: black;
+}
+
+.fill {
+    width: 100%;
+    max-width: 400px; 
+    box-sizing: border-box;
+}
+
+.image {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    overflow: hidden;
+    border-radius: 30px;
+    height: 10px;
+    background-image: url(Mask\ group.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer{
+    padding-left: 50%;
+    padding-right: 40%;
+    padding-top: 10px;
+}
+h5{
+    color: white;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: row;
+        /* text-align: center; */
+    }
+
+    .icon {
+        display: block;
+        float: right;
+    }
+
+    .bar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        position: flex;
+        background-color: #ffdd00;
+        top: 60px;
+        left: 0;
+    }
+
+    .bar.show {
+        display: flex;
+    }
+
+    .bar li {
+        margin: 10px 0;
+    }
+    .des2{
+        padding-top: 300px;
+    }
+    .step{
+        padding-top: 300px;
+    }
+    .footer{
+        margin-right: 50px;
+        margin-left: 0px;
+        padding-left: 120px;
+        padding-right: 50px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="text"]
+    textarea {
+        width:100% ;
+        max-width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: 1px solid #ffdd00;
+        box-sizing: border-box;
+        color: white;
+    }
+    .mask{
+        width: 100%;
+        height: 200px;
+    }
+    .prep{
+        width: 100%;
+    }
+    .se{
+        width: 100%;
+    }
+    .con{
+       width: 100%;
+       height: auto; 
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+       position: absolute;
+    top: 300px;
+    }
+    .f1,  .f2  .f3{
+        box-sizing: border-box; 
+        display: inline-block;
+        align-items: left;
+    }
+    .f2 , .f3{
+        padding-right: 5px;
+    }
+    .f2{
+        margin-right: 0;
+        padding-right: 0;
+    
+    }
+
+}
